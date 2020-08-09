@@ -9,7 +9,10 @@ reference paper
 **contents**
 For training use rpn.ipynb file.
 
-**To do list**
-- I will add validation code soon
-- I will build complete Faster RCNN code using this RPN network
+**validation results only after 153 dataset and 17 validation set with 20 epoches**
 
+![validation results. Top ROI box from RPN](./val.png)
+
+**To do list**
+- Add proposal lyer to send final filtered proposal ROI to fast RCNN
+- I will build complete Faster RCNN code using this RPN network
